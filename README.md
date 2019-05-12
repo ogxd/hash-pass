@@ -1,6 +1,16 @@
 # Hash Pass
 
-A new Flutter project.
+A hash-based password generator.
+
+## Why should you use Hash Pass ?
+
+![All in the Braim](https://raw.githubusercontent.com/ogxd/hash-pass/master/demo/nothing_small.png)
+![With Hash Pass](https://raw.githubusercontent.com/ogxd/hash-pass/master/demo/withhash_small.png)
+
+## Why wouldn't I use a password manager ?
+
+- todo
+![Why Hashing](https://raw.githubusercontent.com/ogxd/hash-pass/master/demo/why_hashing_small.png)
 
 ## Screenshots
 
