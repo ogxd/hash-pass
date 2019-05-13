@@ -30,7 +30,7 @@ Pros:
 - Hardcoded Salt Key makes it untargettable
 
 Cons:
-- You can use existing passwords
+- You can't use existing passwords
 
 ## Screenshots
 
