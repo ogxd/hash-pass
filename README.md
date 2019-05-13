@@ -7,10 +7,10 @@ The "Sign-in with Google/Facebook/..." is a big help, but it can't be used every
 Passwords managers such as LastPass, Keeper or Dashlane are for sure really handy but I don't want to pay for a service that actually exposes ALL of my passwords in clear ar a remote location...
 
 So I've made **Hash Pass**, which an hash-based password generator.
-The principle is simple : 'Salt Key + Master Key + Service = Password' 
-The 'Salt Key' is in the source code and is obfuscated
-The 'Service' is the name of the service that requires a password (eg: "Github")
-The 'Master Key' is the only password that needs to be remembered and typed in the App.
+The principle is simple : `Salt Key + Master Key + Service = Password`
+The `Salt Key` is in the source code and is obfuscated
+The `Service` is the name of the service that requires a password (eg: "Github")
+The `Master Key` is the only password that needs to be remembered and typed in the App.
 
 ## Hashing VS Humain Brain
 
@@ -20,12 +20,16 @@ The 'Master Key' is the only password that needs to be remembered and typed in t
 ## Hashing VS Password Manager
 
 ![VS Password Manager](https://raw.githubusercontent.com/ogxd/hash-pass/master/demo/why_hashing_small.png)
-+ No account required
-+ It's free
-+ It's completely local
-+ It's simple and code open
-+ Passwords are unique
 
+Pros:
+- No account required
+- It's free
+- It's completely local
+- It's simple and code open
+- Passwords are unique
+- Hardcoded Salt Key makes it untargettable
+
+Cons:
 - You can use existing passwords
 
 ## Screenshots
