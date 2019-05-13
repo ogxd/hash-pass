@@ -36,3 +36,15 @@ Cons:
 
 ![Android Home Icon](https://raw.githubusercontent.com/ogxd/hash-pass/master/demo/android_home.jpg)
 ![Android App](https://raw.githubusercontent.com/ogxd/hash-pass/master/demo/android_app.jpg)
+
+## About Generated Passwords
+
+Passwords are generated with a one way (additive) hashing algorithm.
+Passwords are 13 characters long, have one special character, uppercase and lowercase letters and numbers. This way, they should work everywhere! 
+Passwords exclude some misleading chars such as i and l, so that it is less prone to errors. 
+
+## Thoughts
+
+- The hashing could be done on a server and gathered from a GET or POST requests (it has to be https though). This way, the Salt Key is almost impossible to retreive, but being unique and online makes it actually weaker than the 100% local version presented here.
+- What to do if a password got hacked? I'd say append a number at the end of the service (Github2). I think by brain can handle this :)
+- What if I have multiple accounts on a same service (Google?) : do the same as above ? 
